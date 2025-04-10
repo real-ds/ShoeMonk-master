@@ -109,6 +109,20 @@ export default function CollectionPage() {
   return (
     <main className="min-h-screen bg-white">
       <Navbar />
+      {/* New Image Section */}
+      <section className="w-screen h-[500px] relative overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="/images/explorepagebanner.png"
+            alt="Description of the image"
+            layout="fill"
+            
+            
+            objectFit="cover"
+            className="object-cover"
+          />
+        </div>
+      </section>
 
       {/* Hero Section */}
       <section className="w-full bg-[#f8f3e6] py-16">

@@ -44,8 +44,8 @@ export default function Home() {
               <div className=" relative z-10">
                 {/* Text Content */}
                 <div className="text-left space-y-6">
-                  <h1 className="text-6xl font-bold text-[#2D3748] leading-tight">
-                    Welcome to <br></br><span className="text-[#ff4040]">The ShoeMonk</span>
+                  <h1 className="font-stretch-normal text-6xl font-bold text-[#2D3748] leading-tight">
+                    Welcome to <br></br><span className="text-[#ff4040] font-sans">THE SHOEMONK</span>
                   </h1>
                   <p className="text-xl text-gray-600 max-w-lg">
                     Your Ultimate SoleMate! Get Best Recemendation for your next Pair of Sneakers.
@@ -55,7 +55,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="bg-[#ca544d] hover:bg-[#620600] text-white px-8 py-4 rounded-lg shadow-md transition-all duration-300 text-lg">
+                    <button className="bg-[#ca544d] hover:bg-[#620600] px-8 py-4 rounded-lg shadow-md transition-all duration-300 text-lg">
                       Get Started
                     </button>
                   </a>
@@ -149,7 +149,7 @@ export default function Home() {
     </p>
     
     <div className="relative inline-block group perspective-1000">
-  <button className="bg-gradient-to-r from-[#FFE0CB] to-[#798478] text-white px-12 py-5 rounded-lg shadow-lg transition-all duration-500 transform group-hover:translate-y-[-6px] group-hover:shadow-xl group-hover:shadow-[#D17B0F]/20 text-lg font-medium relative z-10 overflow-hidden">
+  <button className="bg-gradient-to-r from-[#ffe1e1] to-[#ff4242] text-white px-12 py-5 rounded-lg shadow-lg transition-all duration-500 transform group-hover:translate-y-[-6px] group-hover:shadow-xl group-hover:shadow-[#D17B0F]/20 text-lg font-medium relative z-10 overflow-hidden">
     <a 
       href="https://forms.gle/zwGivgmddgtxxqaS6"
       target="_blank"
@@ -175,53 +175,53 @@ export default function Home() {
 </section>
 
           {/* Testimonials Section */}
-<section className="w-full bg-white py-16 overflow-hidden">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 className="text-4xl font-bold text-center text-gray-800 mb-2">Testimonials</h2>
-    <p className="text-center text-gray-600 mb-12">What our customers are saying about us</p>
+          <section className="w-full bg-white py-16 overflow-hidden">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="text-4xl font-bold text-center text-gray-800 mb-2">Testimonials</h2>
+              <p className="text-center text-gray-600 mb-12">What our customers are saying about us</p>
 
-    {/* Animated testimonial carousel container */}
-    <div className="relative">
-      {/* Mouse interaction area */}
-      <div className="group">
-        {/* Scrolling testimonials row */}
-        <div className="flex space-x-8 animate-scroll group-hover:pause-animation overflow-hidden">
-          {/* Testimonial Cards */}
-          {[...Array(5)].map((_, i) => (
-            <div
-              key={i}
-              className="flex-shrink-0 w-80 bg-gradient-to-br from-white to-gray-100 p-6 rounded-xl shadow-md border border-gray-200 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
-            >
-              {/* Stars */}
-              <div className="flex text-yellow-500 mb-3">
-                {[...Array(5)].map((_, starIndex) => (
-                  <svg key={starIndex} className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
-              </div>
-              {/* Message */}
-              <p className="text-gray-600 italic">
-                "ShoeMonk has completely changed the way I look at shoes. Their style and durability are simply unmatched!"
-              </p>
-              {/* User */}
-              <div className="mt-4 flex items-center justify-between">
-                <div className="flex items-center">
-                  <div className="w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center text-gray-600 font-bold">
-                    {String.fromCharCode(65 + i)}
-                  </div>
-                  <div className="ml-3">
-                    <p className="text-gray-800 font-bold">User {i + 1}</p>
-                    <p className="text-sm text-gray-500">Verified Buyer</p>
+              {/* Animated testimonial carousel container */}
+              <div className="relative">
+                {/* Mouse interaction area */}
+                <div className="group">
+                  {/* Scrolling testimonials row */}
+                  <div className="flex space-x-8 animate-scroll group-hover:pause-animation overflow-hidden">
+                    {/* Testimonial Cards */}
+                    {[...Array(5)].map((_, i) => (
+                      <div
+                        key={i}
+                        className="flex-shrink-0 w-80 bg-gradient-to-br from-white to-gray-100 p-6 rounded-xl shadow-md border border-gray-200 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+                      >
+                        {/* Stars */}
+                        <div className="flex text-yellow-500 mb-3">
+                          {[...Array(5)].map((_, starIndex) => (
+                            <svg key={starIndex} className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>
+                          ))}
+                        </div>
+                        {/* Message */}
+                        <p className="text-gray-600 italic">
+                          "ShoeMonk has completely changed the way I look at shoes. Their style and durability are simply unmatched!"
+                        </p>
+                        {/* User */}
+                        <div className="mt-4 flex items-center justify-between">
+                          <div className="flex items-center">
+                            <div className="w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center text-gray-600 font-bold">
+                              {String.fromCharCode(65 + i)}
+                            </div>
+                            <div className="ml-3">
+                              <p className="text-gray-800 font-bold">User {i + 1}</p>
+                              <p className="text-sm text-gray-500">Verified Buyer</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
             </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  </div>
 
   {/* Tailwind animations (you need to add this in global styles if not already available) */}
   <style jsx>{`
